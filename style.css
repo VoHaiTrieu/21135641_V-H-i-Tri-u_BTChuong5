@@ -1,0 +1,54 @@
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: orange;
+    width: 100%;
+    overflow: hidden;
+    font-size: 18px;
+}
+
+nav ul li {
+    float: left;
+  
+}
+
+nav ul li a {
+    display: block;
+    color: #333333;
+    text-align: center;
+    padding: 14px 14px;
+    text-decoration: none;
+  
+}
+
+nav ul li a:hover {
+    background-color: #ddd;
+}
+
+nav ul li ul {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    width: 85px;
+    padding: 0;
+
+}
+
+nav ul li:hover ul {
+    display: block;
+}
+
+nav ul li ul li {
+    float: none;
+}
+
+nav ul li ul li a {
+    padding: 10px;
+    text-align: left;
+    font-size: 18px;
+}
+
+nav ul li ul li a:hover {
+    background-color: #ddd;
+}
